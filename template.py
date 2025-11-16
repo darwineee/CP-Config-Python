@@ -1,8 +1,11 @@
 import sys
+import itertools as it
+from bisect import bisect_left as bsl
+from bisect import bisect_right as bsr
+
 
 read = sys.stdin.readline
 write = sys.stdout.write
-
 
 newl="\n"
 space=" "
@@ -26,9 +29,4 @@ def putarr(group, sep=space, end=newl):
     write(end)
 
 
-def solve():
-    # <<<START>>>
-
-
-if __name__ == "__main__":
-    solve()
+# <<<START>>>
