@@ -9,14 +9,17 @@ write = sys.stdout.write
 
 newl="\n"
 space=" "
+empty=""
+
+MOD = 10**9 + 7
 
 
 def get(T=int):
-    return T(read())
+    return T(read().strip())
 
 
 def getarr(T=int):
-    return list(map(T, read().split()))
+    return list(map(T, read().strip().split()))
 
 
 def put(s, sep=newl):
@@ -30,3 +33,71 @@ def putarr(group, sep=space, end=newl):
 
 
 # <<<START>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
